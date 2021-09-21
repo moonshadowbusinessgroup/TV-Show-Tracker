@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Science Fiction"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/drama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Drama"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/thriller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Thriller"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Action"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/crime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Crime"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/horror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Horror"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/romance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Romance"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/adventure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Adventure"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/fantasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Fantasy"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/mystery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Mystery"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/supernatural"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Supernatural"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Family"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/anime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Anime"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/comedy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Comedy"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="History"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
